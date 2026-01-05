@@ -31,13 +31,16 @@ body {
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
 .logo-icon {
   color: #ae5f05;
   font-size: 28px !important;
 }
-
+.heavenly {
+  color: #333;
+}
 .logo-accent {
   color: #ae5f05;
 }
@@ -361,7 +364,7 @@ section {
   background: #333;
   color: white;
 }
-.dark .nav-links a {
+.dark .nav-links a ,.dark .heavenly {
   color: white;
 }
 .dark .product, .dark .about-card, .dark .contact-info, .dark .contact-form {

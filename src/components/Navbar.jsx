@@ -49,11 +49,19 @@ export default function Navbar({ cartCount, toggleTheme, dark }) {
           {open ? <CloseIcon /> : <MenuIcon />}
         </div>
 
-        <div className="logo">
-          <BakeryDiningIcon className="logo-icon" />
-          <span>Heavenly</span>
-          <span className="logo-accent">Oven</span>
-        </div>
+        <Link
+  to="/#home"
+  className="logo"
+  onClick={(e) => {
+  setOpen(false);
+  setActive("home") ;
+  }}
+>
+  <BakeryDiningIcon className="logo-icon" />
+  <span className="heavenly">Heavenly</span>
+  <span className="logo-accent">Oven</span>
+</Link>
+
       </div>
 
       {/* Links */}
