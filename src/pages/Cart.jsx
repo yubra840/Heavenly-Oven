@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import "./cart.css";
+import "./Cart.css";
 
 
 export default function Cart({ cart, updateQty, removeFromCart }) {
